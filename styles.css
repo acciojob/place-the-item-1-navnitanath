@@ -1,2 +1,29 @@
-
 /* Your CSS Code here. */
+/* Holder (Flex Container) */
+.holder {
+    display: flex;                /* Enable Flexbox */
+    justify-content: space-between; /* First and last items touch the screen edges */
+    flex-wrap: wrap;               /* Allows items to wrap if needed */
+    width: 100%;                   /* Full width */
+    padding: 10px;                 /* Padding for spacing */
+    background-color: #f4f4f4;     /* Light background */
+}
+
+/* Individual Items */
+.item {
+    width: 120px;         /* Fixed width */
+    height: 80px;         /* Fixed height */
+    text-align: center;   /* Center text */
+    line-height: 80px;    /* Center text vertically */
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;   /* Rounded corners */
+}
+
+/* Different Background Colors for Visibility */
+.item-1 { background-color: #ff5733; } /* Red */
+.item-2 { background-color: #33b5e5; } /* Blue */
+.item-3 { background-color: #4caf50; } /* Green */
+.item-4 { background-color: #f1c40f; } /* Yellow */
+.item-5 { background-color: #9b59b6; } /* Purple */
+
